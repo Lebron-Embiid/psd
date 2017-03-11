@@ -1,0 +1,146 @@
+.header{
+	width: 1280px;
+	height: 80px;
+	position: relative;
+}
+.header img{
+	margin: 20px 300px 18px 140px;
+	cursor: pointer;
+}
+.header ul{
+	width:350px;
+	float: right;
+	margin: 25px 280px 20px 0;
+}
+.header ul li{
+	float: left;
+	margin-right: 25px;
+}
+.header ul li:last-child{
+	margin-right: 0;
+}
+.header ul li a{
+	color:#6D6D6D;
+}
+.header ul li.active a,.header ul li:hover a{
+	color:#4AB8FF;
+}
+.header span{
+	width: 150px;
+	height: 28px;
+	border:2px solid #ccc;
+	border-radius: 20px;
+	padding:5px 20px;
+	background: url(img/search.png) 45px 15px no-repeat;
+	position: absolute;
+	top: 18px;
+	right: 50px;
+	text-align: center;
+	color:#B0B0B0;
+}
+.slide{
+	width: 1280px;
+	height: 520px;
+}
+.content{
+	width: 1280px;
+	height: 1280px;
+}
+.content span{
+	display: block;
+	margin:60px 0 0 140px;
+	width: 240px;
+	height: 25px;
+	line-height: 25px;
+	color:#4B4B4B;
+	padding-top: 80px;
+}
+.content span a{
+	color:#747474;
+}
+.content h3,.content h5{
+	text-align: center;
+	margin:0 auto;
+}
+.content h3{
+	font-size: 16px;
+	color:#232323;
+	margin-top: 60px;
+}
+.content h5{
+	font-size: 12px;
+	color:#4C4C4C;
+	margin-bottom: 10px;
+}
+
+.content img{
+	width: 578px;
+	height: 536px;
+	display: block;
+	margin:0 auto 20px;
+}
+.content .font{
+	width: 980px;
+	height: 300px;
+	margin: 0 auto;
+}
+.content .font p{
+	width: 980px;
+	margin-bottom: 10px;
+	text-indent: 4px;
+	color: #333333;
+}
+.content .font .bottom{
+	width: 200px;
+	height: 20px;
+	margin: 50px auto 80px;
+}
+.content .font a{
+	color:#141414;
+	margin-right: 20px;
+}
+.footer{
+	width: 1280px;
+	height: 50px;
+	background: #fff;
+	margin-top: 90px;
+	border-top: 2px solid #5CC0FF;
+}
+.footer .list{
+	width: 680px;
+	height: 180px;
+	margin:10px auto 0;
+}
+.footer .list ul{
+	float: left;
+	margin-right: 120px;
+	margin-bottom: 60px;
+}
+.footer .list ul:last-child{
+	margin-right: 0;
+}
+.footer .list ul li:first-child{
+	margin-bottom: 10px;
+	color:#424242;
+	font-size: 16px;
+}
+.footer .list ul li a{
+	color:#676767;
+}
+.info{
+	width: 500px;
+	height: 80px;
+	margin:0 auto;
+}
+.info ul li{
+	float: left;
+	margin-right: 45px;
+}
+.info ul li:last-child{
+	margin-right: 0;
+}
+.info p{
+	width: 700px;
+	margin-left: -80px;
+	margin-bottom: 20px;
+}

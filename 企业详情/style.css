@@ -1,0 +1,159 @@
+.header{
+	width: 1280px;
+	height: 80px;
+	position: relative;
+}
+.header img{
+	margin: 20px 150px 18px 140px;
+	cursor: pointer;
+}
+.header ul{
+	width:600px;
+	float: right;
+	margin: 25px 60px 20px 0;
+}
+.header ul li{
+	float: left;
+	margin-right: 60px;
+}
+.header ul li:last-child{
+	margin-right: 0;
+}
+.header ul li a{
+	color:#6D6D6D;
+}
+.header ul li.active a,.header ul li:hover a{
+	color:#4AB8FF;
+}
+.slide{
+	width: 1280px;
+	height: 420px;
+}
+.content{
+	width: 1280px;
+	height: 400px;
+}
+.content span{
+	display: block;
+	margin:18px 0 0 140px;
+	width: 240px;
+	height: 25px;
+	line-height: 25px;
+	color:#4B4B4B;
+}
+.content span a{
+	color:#60BFFF;
+}
+.content ul{
+	width: 528px;
+	margin:0 auto;
+}
+.content ul li{
+	float: left;
+	width: 107px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	background: #C9C9C9;
+	margin-right: 25px;
+}
+.content ul li.active{
+	background: #49B7FF;
+	color:#fff;
+}
+.content h3,.content h5{
+	text-align: center;
+	margin:0 auto;
+}
+.content h3{
+	font-size: 20px;
+	color:#232323;
+	margin-top: 100px;
+}
+.content h5{
+	font-size: 12px;
+	color:#4C4C4C;
+	margin-bottom: 10px;
+}
+
+.content img{
+	width: 578px;
+	height: 536px;
+	display: block;
+	margin:0 auto;
+}
+.content .font{
+	width: 980px;
+	margin: 0 auto;
+}
+.content .font p{
+	width: 980px;
+	margin-bottom: 10px;
+	text-indent: 28px;
+	color: #333333;
+	margin: 0 auto;
+}
+
+.person{
+	width: 1000px;
+	margin:0 auto;
+}
+.person .img{
+	margin-bottom: 130px;
+}
+.person .trust{
+	height: 350px;
+	margin-bottom: 100px;
+}
+.person .trust ul{
+	width: 1000px;
+	margin:0 85px;
+}
+.person .trust ul li{
+	float: left;
+	margin-right: 25px;
+}
+.person .trust h2{
+	text-align: center;
+	font-size: 24px;
+	color:#000;
+	margin-bottom: 40px;
+}
+.person .trust h2 a{
+	color:#959595;
+}
+.person .com{
+	height: 230px;
+	margin-bottom: 130px;
+}
+.person .com ul{
+	width: 1000px;
+	margin-left: 20px;
+}
+.person .com ul li{
+	width: 193px;
+	height: 122px;
+	float: left;
+	margin-right: 25px;
+	border:9px solid #000;
+}
+.person .com h3{
+	text-align: center;
+	font-size: 24px;
+	color:#000;
+	margin-bottom: 40px;
+}
+.person .com h3 a{
+	color:#87cfff;
+}
+.footer{
+	width: 1280px;
+	height: 60px;
+	background: #424242;
+}
+.footer p{
+	width: 1280px;
+	line-height: 60px;
+	text-align: center;
+	color:#fff;
+}
